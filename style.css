@@ -1,0 +1,48 @@
+
+body{
+background-color: black;
+}
+*{
+    font-family: roboto;
+padding: 0;
+margin: 0;   
+}
+.header {
+ 
+ display: flex;
+ justify-content: center;
+ 
+}
+.logo{
+    
+    color: #f9faf8;
+    padding: 14px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.navbar{
+    
+    color: white;
+    background-color: #1F2937;
+    width: 1500px;
+    height: 100px;
+    display: flex;  
+    justify-content: space-around;
+}
+ul {
+    
+display: flex;
+padding: 12px;
+text-decoration: none;
+}
+li {
+font-size: 18px;
+list-style: none;
+padding: 12px;
+
+    
+}
+a{
+text-decoration: none;    
+color: #e5e7eb;
+}
