@@ -56,7 +56,7 @@ text-decoration: none;
 color: #e5e7eb;
 }
 .body {
-    
+    font-size: 18px;
     display: flex;
     align-items: center;
     background-color: #1F2937; 
@@ -77,18 +77,33 @@ color: #e5e7eb;
 }
 .header2{
 font-size: 48px;
-font-weight: bolder;
+font-weight: bolder
 }
 .placehold {   
-    text-align: center;
-
-background-color: #e5e7eb;
-
-height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+justify-content: center;
+background-color: gray;
+height: 250px;
+width: 1650px;
 right: 100px;
 
 
+}
+.container{
+    margin-top: 100px;
+background-color: white;
 
-
+}
+.buttons{
+    font-size: 18px;
+font-weight: bold;
+color: white;
+    border: 0;
+border-radius: 15px;
+width: 140px;
+height: 40px;
+background-color: #3882f6
 
 }
